@@ -73,12 +73,16 @@ public class Main{
 
       }
       System.out.println("= "+res);
-      System.out.print("Aperte ENTER para continuar ou digite \"0\" para sair");
+      System.out.print("Aperte ENTER para continuar ou digite \"1\" para limpar ou \"0\" para sair");
       scan.nextLine();
       sair = scan.nextLine();
       if (sair.equals("0")){
         System.out.println("Encerrando o programa...");
         break;
+      } else if (sair.equals("1")){
+        System.out.println("Limpando calculadora...");
+        i = 0;
+        resultado.clear();
       }
     }
 

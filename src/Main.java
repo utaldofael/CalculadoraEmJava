@@ -8,7 +8,7 @@ public class Main{
         System.out.println("Version: 1.0");
       }
     } catch (Exception ignored){}
-
+    System.out.println("Calculadora Em Java");
     System.out.println("Programa executado!");
   }
 }

@@ -74,7 +74,7 @@ public class Main{
       }
       System.out.println("= "+res);
       System.out.print("Aperte ENTER para continuar ou digite \"0\" para sair");
-      sair = scan.nextLine();
+      scan.nextLine();
       sair = scan.nextLine();
       if (sair.equals("0")){
         System.out.println("Encerrando o programa...");
